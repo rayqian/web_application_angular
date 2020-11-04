@@ -1,9 +1,18 @@
-<section class="jumbotron text-center">
-    <div class="container">
-      <h2>Welcome Yu Qian</h2>
-      <p class="lead text-muted">OS:  Windows - WSL2</p>
-      <p>IDE: VS Code</p>
-    </div>
-  </section>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #bc96ee;">
+  <a class="navbar-brand" href="#">My Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="client-info/">Flight<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about/">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-<app-client-info></app-client-info>
+<router-outlet></router-outlet>
